@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mariza Fachion — Malas elegantes para o dia a dia</title>
+  <meta name="description" content="Malas tote grandes e elegantes em várias cores. Escolha o seu modelo e encomende diretamente pelo WhatsApp.">
+  <meta name="theme-color" content="#e8eaeb">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mariza Fachion">
+  <meta property="og:description" content="Malas tote grandes e elegantes. Encomende pelo WhatsApp.">
+  <!-- Depois do deploy, troque pelo endereço completo: https://seusite.com/img/hero.jpg -->
+  <meta property="og:image" content="img/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👜%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Figtree:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#catalogo">Saltar para o catálogo</a>
+
+  <header class="top">
+    <a class="logo" href="#inicio" aria-label="Mariza Fachion — início">Mariza Fachion</a>
+    <a class="btn btn-wa" href="https://wa.me/qr/EMWEPKSU4NSOD1" target="_blank" rel="noopener">WhatsApp</a>
+  </header>
+
+  <main id="inicio">
+    <div class="hero">
+      <div class="hero-copy">
+        <h1>Mariza Fachion</h1>
+        <p>Malas grandes e elegantes para o trabalho, as compras e o dia a dia.</p>
+        <a class="btn btn-wa" data-wa="Olá! Quero encomendar uma mala da Mariza Fachion.">Encomendar no WhatsApp</a>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero.jpg" width="900" height="1125" alt="Mulher a usar uma mala tote castanha ao ombro" fetchpriority="high">
+      </div>
+    </div>
+
+    <div id="catalogo">
+      <section aria-labelledby="t1300">
+        <h2 id="t1300">Modelo 1300</h2>
+        <p class="sub">Alças com fivela ajustável, porta-chaves a condizer e fecho com zip.</p>
+        <div class="grid" data-modelo="1300"></div>
+      </section>
+
+      <section aria-labelledby="t1301">
+        <h2 id="t1301">Modelo 1301</h2>
+        <p class="sub">Tecido em espinha, alças redondas e acabamento dourado.</p>
+        <div class="grid" data-modelo="1301"></div>
+      </section>
+    </div>
+
+    <section aria-labelledby="tint">
+      <div class="feature">
+        <img src="img/interior.jpg" width="900" height="900" loading="lazy" alt="Interior da mala com bolso de zip e divisória central">
+        <div>
+          <h2 id="tint">Espaço por dentro</h2>
+          <p class="sub">Bolso com zip, divisória central e espaço para portátil, carteira e garrafa.</p>
+          <a class="btn btn-wa" data-wa="Olá! Tenho uma dúvida sobre as malas da Mariza Fachion.">Tirar dúvidas</a>
+        </div>
+      </div>
+    </section>
+
+    <noscript><p class="sub" style="padding:20px">Ative o JavaScript para ver o catálogo.</p></noscript>
+  </main>
+
+  <footer>
+    <p>Mariza Fachion — fale connosco para encomendas e entregas.</p>
+    <a class="btn btn-wa" data-wa="Olá! Quero fazer uma encomenda.">Falar no WhatsApp</a>
+  </footer>
+
+  <dialog id="dlg" aria-label="Foto ampliada">
+    <img id="big" alt="">
+    <button type="button" aria-label="Fechar">✕</button>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
